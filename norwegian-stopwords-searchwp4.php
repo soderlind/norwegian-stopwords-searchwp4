@@ -32,7 +32,7 @@ add_filter( 'searchwp\stopwords', __NAMESPACE__ . '\stopwords' );
 /**
  * If locale is Norwegian, add Norwegian stopwords
  *
- * @param array $stopwords
+ * @param array $stopwords Stopwords.
  *
  * @return array
  */
