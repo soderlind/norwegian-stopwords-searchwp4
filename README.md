@@ -4,11 +4,15 @@ Norwegian, bokmål and nynorsk, stopwords are missing in SearchWP 4. This plugin
 
 ## Installation
 
-You know the drill, 
+You know the drill,
+
 - [Download](https://github.com/soderlind/norwegian-stopwords-searchwp4/archive/refs/heads/main.zip)
-- Add to the plugins folder 
+- Add to the plugins folder
 - Activate.
 
+## Credits
+
+The stopwords are from http://snowball.tartarus.org/algorithms/norwegian/stop.txt
 
 ## Copyright and License
 
