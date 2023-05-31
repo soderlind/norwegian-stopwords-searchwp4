@@ -1,0 +1,8 @@
+{
+    "name": "soderlind/norwegian-stopwords-searchwp4",
+    "description": "Norwegian stopwords for SearchWP 4",
+    "type": "wordpress-plugin",
+    "homepage": "https://github.com/soderlind/norwegian-stopwords-searchwp4",
+    "license": "GPL-2.0-or-later",
+    "require": {}
+}
