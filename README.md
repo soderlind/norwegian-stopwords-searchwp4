@@ -10,7 +10,7 @@ function stopwords( array $stopwords ) : array {
 	switch ( $locale ) {
 		case 'nb':
 		case 'nn':
-			return explode(
+			$default_stopwords = explode(
 				',',
 				_x(
 					'about,an,are,as,at,be,by,com,for,from,how,in,is,it,of,on,or,that,the,this,to,was,what,when,where,who,will,with,www',
@@ -18,6 +18,7 @@ function stopwords( array $stopwords ) : array {
 				)
 			);
 
+			return get_option( 'searchwp_stopwords', $default_stopwords );
 		default:
 			return $stopwords;
 	}
