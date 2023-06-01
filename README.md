@@ -34,7 +34,7 @@ You know the drill,
 
 ## Credits
 
-Use the stopwords from the WordPress translation, [bokmål](https://translate.wordpress.org/projects/wp/dev/nb/default/?filters%5Bstatus%5D=either&filters%5Boriginal_id%5D=70980&filters%5Btranslation_id%5D=2917948) and [nynorsk](https://translate.wordpress.org/projects/wp/dev/nn/default/?filters%5Bstatus%5D=either&filters%5Boriginal_id%5D=70980&filters%5Btranslation_id%5D=2940685).
+The stopwords are from the WordPress translation, [bokmål](https://translate.wordpress.org/projects/wp/dev/nb/default/?filters%5Bstatus%5D=either&filters%5Boriginal_id%5D=70980&filters%5Btranslation_id%5D=2917948) and [nynorsk](https://translate.wordpress.org/projects/wp/dev/nn/default/?filters%5Bstatus%5D=either&filters%5Boriginal_id%5D=70980&filters%5Btranslation_id%5D=2940685).
 
 ## Copyright and License
 
