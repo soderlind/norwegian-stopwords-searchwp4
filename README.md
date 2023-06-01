@@ -2,6 +2,28 @@
 
 Norwegian, bokmål and nynorsk, stopwords are missing in SearchWP 4. This plugin will add them if your locale is `no_NB` or `no_NN`
 
+```php
+add_filter( 'searchwp\stopwords', __NAMESPACE__ . '\stopwords' );
+
+function stopwords( array $stopwords ) : array {
+	$locale = strtolower( substr( get_locale(), 0, 2 ) );
+	switch ( $locale ) {
+		case 'nb':
+		case 'nn':
+			return explode(
+				',',
+				_x(
+					'about,an,are,as,at,be,by,com,for,from,how,in,is,it,of,on,or,that,the,this,to,was,what,when,where,who,will,with,www',
+					'Comma-separated list of search stopwords in your language'
+				)
+			);
+
+		default:
+			return $stopwords;
+	}
+}
+```
+
 ## Installation
 
 You know the drill,
