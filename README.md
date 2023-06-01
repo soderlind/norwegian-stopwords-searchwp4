@@ -1,6 +1,6 @@
 # Norwegian Stopwords for SearchWP 4
 
-Norwegian, bokmål and nynorsk, stopwords are missing in SearchWP 4. This plugin will add them if your locale is `no_NB`, `no_NN` or `no`
+Norwegian, bokmål and nynorsk, stopwords are missing in SearchWP 4. This plugin will add them if your locale is `no_NB` or `no_NN`
 
 ## Installation
 
@@ -12,7 +12,7 @@ You know the drill,
 
 ## Credits
 
-The stopwords are from http://snowball.tartarus.org/algorithms/norwegian/stop.txt
+Use the stopwords from the WordPress translation, [bokmål](https://translate.wordpress.org/projects/wp/dev/nb/default/?filters%5Bstatus%5D=either&filters%5Boriginal_id%5D=70980&filters%5Btranslation_id%5D=2917948) and [nynorsk](https://translate.wordpress.org/projects/wp/dev/nn/default/?filters%5Bstatus%5D=either&filters%5Boriginal_id%5D=70980&filters%5Btranslation_id%5D=2940685).
 
 ## Copyright and License
 
